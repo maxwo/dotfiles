@@ -1,0 +1,20 @@
+Host natsu.local
+    HostName natsu.local
+    Port 22
+    User osmc
+Host aki.local
+    HostName aki.local
+    Port 22
+    User max
+Host zenika.local
+    HostName aki.local
+    Port 22
+    User max
+Host haru.local
+    Hostname haru.local
+    Port 22
+    User max
+Host koyo.local
+    Hostname koyo.local
+    Port 22
+    User root
