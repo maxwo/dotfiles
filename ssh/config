@@ -17,4 +17,4 @@ Host haru.local
 Host koyo.local
     Hostname koyo.local
     Port 22
-    User root
+    User pi
