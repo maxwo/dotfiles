@@ -7,7 +7,7 @@ Host aki.local
     Port 22
     User max
 Host zenika.local
-    HostName aki.local
+    HostName zenika.local
     Port 22
     User max
 Host haru.local
