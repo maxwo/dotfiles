@@ -57,6 +57,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# Add user and hostname to theme's prompt
+PROMPT="%{$FG[075]%}%n%{$FG[240]%}@%{$FG[229]%}%m%{$reset_color%} ${PROMPT}"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
