@@ -51,11 +51,14 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(debian common-aliases docker-compose docker git gulp grunt npm osx yarn zsh-autosuggestions)
+plugins=(debian common-aliases docker-compose docker git gulp grunt npm osx yarn zsh-autosuggestions kubectl thefuck)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+
+# Add user and hostname to theme's prompt
+PROMPT="%{$FG[075]%}%n%{$FG[240]%}@%{$FG[229]%}%m%{$reset_color%} ${PROMPT}"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
