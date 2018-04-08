@@ -18,3 +18,7 @@ Host koyo.local
     Hostname koyo.local
     Port 22
     User pi
+Host kisoku.local
+    Hostname kisoku.local
+    Port 22
+    User pi
