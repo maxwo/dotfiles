@@ -25,6 +25,10 @@ indent_size = 2
 indent_type = space
 indent_size = 8
 
+[Makefile]
+indent_type = tab
+indent_size = 8
+
 [*.py]
 indent_type = space
 indent_size = 2
