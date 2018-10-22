@@ -14,7 +14,7 @@ indent_type = space
 indent_size = 4
 
 [*.xml]
-indent_type = space¬
+indent_type = space
 indent_size = 4
 
 [{*.js,*.json,*.yml,*.yaml}]
