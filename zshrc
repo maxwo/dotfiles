@@ -57,7 +57,11 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-find "$HOME/local-configurations" -type f -perm +1 -exec source {} \;
+for file in $(find "$HOME/local-configurations" -type f -perm +1 ! -path "*/.git/*" -print)
+do
+	source $file
+	cd $HOME
+done
 
 # Add user and hostname to theme's prompt
 PROMPT="%{$FG[075]%}%n%{$FG[240]%}@%{$FG[229]%}%m%{$reset_color%} ${PROMPT}"
