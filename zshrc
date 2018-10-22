@@ -57,6 +57,8 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+find "$HOME/extra-conf" -prune -type f -executable -exec {} \;
+
 # Add user and hostname to theme's prompt
 PROMPT="%{$FG[075]%}%n%{$FG[240]%}@%{$FG[229]%}%m%{$reset_color%} ${PROMPT}"
 

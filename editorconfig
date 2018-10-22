@@ -2,26 +2,24 @@ root = true
 
 [*]
 charset = utf-8
-indent_style = tab
-indent_size = 4
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 max_line_length = 240
 
-[*.java]
+[**.java]
 indent_type = space
 indent_size = 4
 
-[*.xml]
+[**.xml]
 indent_type = space
 indent_size = 4
 
-[{*.js,*.json,*.yml,*.yaml}]
+[**.{js,json,yml,yaml}]
 indent_type = space
 indent_size = 2
 
-[{*.c,*.cpp,*.h}]
+[**.{c,cpp,h}]
 indent_type = space
 indent_size = 8
 
@@ -29,11 +27,11 @@ indent_size = 8
 indent_type = tab
 indent_size = 8
 
-[*.py]
+[**.py]
 indent_type = space
 indent_size = 2
 
-[{*.sh,*.pl,*.pm}]
+[**.{sh,pl,pm}]
 indent_type = space
 indent_size = 2
 
