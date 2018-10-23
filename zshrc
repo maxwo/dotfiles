@@ -57,10 +57,11 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+export JAVA_HOME="`/usr/libexec/java_home -v '1.8*'`"
+
 for file in $(find "$HOME/local-configurations" -type f -perm +1 ! -path "*/.git/*" -print)
 do
 	source $file
-	cd $HOME
 done
 
 # Add user and hostname to theme's prompt
