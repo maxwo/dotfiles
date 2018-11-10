@@ -57,6 +57,10 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US.UTF-8"
+export LANGUAGE="en_US.UTF-8"
+
 export JAVA_HOME="`/usr/libexec/java_home -v '1.8*'`"
 
 for file in $(find "$HOME/local-configurations" -type f -perm +1 ! -path "*/.git/*" -print)
