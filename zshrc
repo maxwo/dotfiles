@@ -51,7 +51,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(debian common-aliases docker-compose docker git gulp grunt npm osx yarn zsh-autosuggestions kubectl thefuck)
+plugins=(debian common-aliases docker-compose docker git gulp grunt npm osx yarn zsh-autosuggestions kubectl thefuck dotenv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -62,7 +62,7 @@ export LC_ALL="en_US.UTF-8"
 export LANG="en_US.UTF-8"
 export LANGUAGE="en_US.UTF-8"
 
-export JAVA_HOME="`/usr/libexec/java_home -v '1.8*'`"
+export JAVA_HOME="`/usr/libexec/java_home -v '11*'`"
 
 for file in $(find "$HOME/local-configurations" -type f -perm +1 ! -path "*/.git/*" -print)
 do
