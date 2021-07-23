@@ -107,5 +107,10 @@ PROMPT="%{$FG[075]%}%n%{$FG[240]%}@%{$FG[229]%}%m%{$reset_color%} ${PROMPT}"
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/zenika/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/zenika/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 
+export CLOUDSDK_PYTHON="$(brew --prefix)/opt/python@3.8/libexec/bin/python"
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+
+
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/zenika/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/zenika/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
