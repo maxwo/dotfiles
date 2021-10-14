@@ -22,3 +22,6 @@ Host kisoku.local
     Hostname kisoku.local
     Port 22
     User pi
+Host *.amazonaws.com
+    User ubuntu
+    IdentityFile ~/.ssh/amazon.pem
