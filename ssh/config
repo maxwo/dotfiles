@@ -13,7 +13,7 @@ Host zenika.local
 Host haru.local
     Hostname haru.local
     Port 22
-    User max
+    User maximewojtczak
 Host koyo.local
     Hostname koyo.local
     Port 22
