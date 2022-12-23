@@ -53,7 +53,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 ZSH_DOTENV_PROMPT=false
 
-plugins=(debian common-aliases docker-compose docker git gulp grunt npm osx yarn zsh-autosuggestions kubectl thefuck dotenv)
+plugins=(debian common-aliases docker-compose docker git gulp grunt npm yarn zsh-autosuggestions kubectl thefuck dotenv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -114,3 +114,5 @@ source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/compl
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/zenika/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/zenika/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+eval "$(starship init zsh)"
